@@ -1,0 +1,100 @@
+Welcome to the minishell.
+This is made by Pranshu Shah
+
+
+Commands available
+
+::Inbuilt::
+
+1.help: lists important info about different functions
+Syntax: help
+
+2.echo: prints out your desired output on screen
+effectively handles spaces and subquotes in quotes,
+prints variable if called by $ symbol.
+Syntax: echo [input]
+
+3.cd: changes directory and helps you navigate throughout your files
+you can traverse through multiple directories in one go
+Syntax:  (cd ..)/(cd)/(cd /)/(cd ~) all four options available
+
+4.exit: Exiting the Shell
+Syntax: exit
+
+5.Setting,Unsetting varable
+Syntax: variable=value, unset variable
+
+::System commands::
+
+1.man: presents manual
+Syntax: man [command]
+
+2.date: prints date
+Syntax: date
+
+3.cal: prints calender of this month
+Syntax: cal
+
+4.clear: clears screen
+Syntax: clear
+
+5.sleep: sleep for certain amount of time
+Syntax: sleep [int in sec]
+
+6.history: gives history of commands entered
+Syntax: history
+
+7.ls: displays files and directories in current directory
+Syntax: (ls)/(ls -l)/(ls -al)
+
+8.cat: reads files
+Syntax: cat [filename]
+
+9.more: displays content according to your terminal size
+Syntax: more [filename]
+
+10.less: opposite of more
+Syntax: less [filename]
+
+11.touch: create a new file
+Syntax: touch [filename]
+
+12.cp: copy the file
+Syntax: cp [file] [source destination]
+
+13.rm: remove files
+Syntax: rm [filename]
+
+14.rmdir: remove empty directories
+Syntax: rmdir [dir name]
+
+15.find: Search for files in directory
+Syntax: find [filename]
+
+16.mkdir: make new directories
+Syntax: mkdir [dir name]
+
+17.pwd: print current working directory
+Syntax: pwd
+
+18.grep: find expressions in an input
+Syntax: grep [expression] [filename]
+
+::Other functinalities include::
+
+1. Single level output redirection
+eg. echo hello world > output.txt
+
+2. Single level Appending
+eg. echo hello world >> output.txt
+
+3. Single level input redirection
+eg. wc < history.txt
+
+4. Single level piping
+eg. cat history.txt | wc
+
+5. Also output/Append can be clubbed with input
+eg. wc < history.txt > output.txt
+
+END OF HELP

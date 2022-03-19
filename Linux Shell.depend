@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1632506725 source:/home/pranshushah/Desktop/Pranshu/Linux Shell/main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	<map>
+	<algorithm>
+	<cstdlib>
+	<unistd.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/wait.h>
+
